@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-	<meta name="generator" content="Hugo 0.110.0">
     <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1"><title>Homepage</title>
-<meta property="og:title" content="Homepage">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1"><title>Teaching - Homepage</title>
+<meta property="og:title" content="Teaching - Homepage">
 <meta property="og:type" content="website">
 
 
@@ -14,9 +13,9 @@
 
 
 
-<meta property="og:image" content="img/main.jpg">
+<meta property="og:image" content="/img/profile.jpg">
 
-<meta property="og:url" content="https://www.shixiang.best/"><meta property="og:description" content="The homepage of Xiang SHI. Ph.D Candidiate in Economics at Hong Kong University of science and Technology.">
+<meta property="og:url" content="https://www.shixiang.best/teaching/"><meta property="og:description" content="The homepage of Xiang SHI. Ph.D Candidiate in Economics at Hong Kong University of science and Technology.">
 <meta name="Description" property="description" content="The homepage of Xiang SHI. Ph.D Candidiate in Economics at Hong Kong University of science and Technology.">
 
 
@@ -107,113 +106,67 @@
                  leading-loose md:px-0 px-2 z-0"
           role="main">
     
-    <div class="head container grid sm:grid-cols-2 grid-cols-1
-            justify-around flex-wrap items-center"
-     itemscope itemtype="http://schema.org/Person">
-    <div class="picture p-8 max-w-[80%] mx-auto basis-20 grow shrink"
-         itemscope itemtype="http://schema.org/ImageObject">
-        <picture>
-            
-            <source srcset="/img/profile.jpg"
-                    >
-            <img class="main-image u-photo mx-auto"
-            itemprop="contentUrl" alt="Profile picture"
-                 src="/img/profile.jpg">
-        </picture>
-    </div>
-    <div class="mx-4 ml-8 basis-60 grow shrink-2 leading-snug text-base">
-        <a  class="u-url font-bold" rel="me" itemprop="url" href="https://www.shixiang.best/">
-            <h1 class="text-black dark:text-zinc-300 p-name border-0"
-                itemprop="name">Xiang SHI
-            </h1>
-        </a>
+    
+    
+    
+    
+    
+    
+    
+    
+    <h2 id="publications">Teaching Assistant</h2>
+    
+    
+    <style>
+.wrapperlist {
+    margin-right: auto;
+    margin-left: 40px;
+    max-width:1160px; 
+    padding-top: 10px;
+    padding-right: 2px;
+    padding-left: 2px; 
+    padding-bottom: 1px;
+    }
+</style>
+<div class="wrapperlist">
+    <b>
+        <span itemprop="name" style="font-size:20px;">Hong Kong University of Science and Technology</span>
+    </b>
+    <ul  style="line-height:180%">
         
-        <h4  itemprop="email",class="text-xl my-0 border-none">xshiah [at] connect.ust.hk</h4>
-        <h4  itemprop="email",class="text-xl my-0 border-none"></h4>
-        <h2 itemprop="jobTitle" class="text-xl my-0 border-none">PhD Student</h2>
-        <h4  itemprop="email",class="text-xl my-0 border-none">Hong Kong University of Science and Technology</h4>
-        <br>
-            
-            <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-            <span itemprop="streetAddress">
-                Room 4063, Lee Shau Kee Building,
-                <br>
-                Hong Kong University of Science and Technology,
-                <br>
-                Clear Water Bay, Kowloon
-            </span>
-            <br>
-            <span itemprop="postalCode">999077</span>
-            <span itemprop="addressLocality">Hong Kong</span>
-            <br>
-            
-            <br>
-            </div>
-            
-    </div>
+        <li><span itemprop="name">ECON 6120W Quantitative Macroeconomics(PG), Spring 2023</span></li>
+        
+        
+        <li><span itemprop="name">ECON 6120W Quantitative Macroeconomics(PG), Spring 2023</span></li>
+        
+        
+        <li><span itemprop="name">ECON 5250 Macroeconomic Theory I(PG), Fall 2021, Fall 2022</span></li>
+        
+        
+        <li><span itemprop="name">ECON 2174 Mathematics for Economists(UG), Fall 2020</span></li>
+        
+        
+        <li><span itemprop="name">ECON 4234 Labour Economics and Human Resources(UG),Spring 2020,Spring 2021</span></li>
+        
+        
+        <li><span itemprop="name">ECON 3133 Microeconomic Theory II(UG), Fall 2019</span></li>
+        
+        
+        <li><span itemprop="name">ECON 5420 Development Economics(PG), Spring 2019</span></li>
+        
+        
+    </ul>
 </div>
 
-    <h1 id="bio">Bio</h1>
-<p>I am a Ph.D. student in Economins at Hong Kong University of Science and Technology (Department of Economics, Business School).</p>
-<p>My research interests are macroeconomics of household heterogeneity, inequality, monetary and macroprudential policies, and quantitative methods for empirical (VAR) and numerical (HANK) analysis.</p>
+    
+    
+    
 
-    
-    
     
 
     </main>
     
 
-<script>
- 
- function toggleModal(win) {
-     return ((event) => {
-         if (event.target.id.startsWith("#open-modal") || 
-             event.target.id.startsWith("#close-modal") || 
-             event.target.classList.contains("open-modal")) {
-             event.stopPropagation();
-             win.classList.toggle("invisible");
-             win.classList.toggle("pointer-events-auto");
-             document.body.classList.toggle("pointer-events-none");
-         }
-     });
- }
- var list = document.getElementsByClassName("open-modal");
- for (let item of list) {
-     var id = item.attributes["data-target"].textContent;
-	 var modWin = document.getElementById(id);
-     var closeButton = document.getElementById(id.replace("open", "close"));
-
-	 item.addEventListener('click', toggleModal(modWin));
-     closeButton.addEventListener('click', toggleModal(modWin));
-     modWin.addEventListener('click', toggleModal(modWin));
- }
- var clipboardCopyButtons = document.getElementsByClassName("modal-copy-citation");
- for (let button of clipboardCopyButtons) {
-     let citation_id = button.id.replace("#copy-", "");
-     let citation_text = document.getElementById(citation_id);
-     button.addEventListener('click', function (clicked) {
-        return function () {
-            if (!clicked) {
-                var last = this.innerHTML;
-                navigator.clipboard
-                         .writeText(citation_text.innerHTML)
-                         .then(() => {
-                             this.innerHTML = "Copied!";
-                             this.disabled = true;
-                         },
-                               () => {this.innerHTML = "Error copying!";});
-                clicked = true;
-                setTimeout(function () {
-                    this.innerHTML = last;
-                    this.disabled = false;
-                    clicked = false;
-                }.bind(this), 1000);
-            }
-        };
-     }(false), this);
- }
-</script>
 
 
   </body>
